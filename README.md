@@ -13,10 +13,22 @@ This repository provides code for Learning Optimal System Designs for Cost-Effic
   ├── Test/ Testing scripts for evaluation and visualization    
   ├── environment.yml Python dependencies
 
-## 🚀 Quick Start
+## 🚀 One-Click Quick Start (CPU, No Environment Setup)
+We provide a one-click executable for quick testing on 2D circular array (mouse abdomen) data. This package includes the test dataset, pretrained weights, and the required deep learning environment, so no additional installation is needed.
+
+Note: The executable runs on CPU only, so inference may be slower.
+1. Download the packaged executable [here](https://drive.google.com/file/d/1YbaCuTYaSIhNv8hoO3YQR1H5OYW3qs9W/view?usp=sharing).  
+2. Extract the archive to obtain a QuickTest folder.
+3. Run 'CodesignOA_2D_GUI.exe' inside the folder.
+4. In the GUI, select the number of transducer elements. Once ready, the Run button will turn green. Click it to start inference and visualization.
+
+
+
+## ⚡ Test with GPU (Full Deployment)
 ### 1. Install Dependencies
 Make sure you have Python ≥ 3.8 + Pytorch ≥ 1.12.0 and install required packages:  
 conda env create -f environment.yml
+
 ### 2. Download Datasets and Pretrained Models
 - Data:
 Due to dataset size limitations, only the experimental dataset based on the 2D circular array (mouse abdomen) is included in this repository for quick testing. Additional datasets for both 2D and 3D configurations can be downloaded from the following links:  
@@ -26,7 +38,6 @@ Some 3D experimental data (>50GB) can be downloaded from [Baidu Cloud](https://p
 Pretrained models for both configurations are available [here](https://drive.google.com/drive/folders/1RqE8x5nnz4RmY9ixdjyOgK-ioEiB9I2l?usp=drive_link).  
 Place the downloaded files into their respective folders as indicated in the training and test scripts.
 
-## 🧠 Running the Code
 ### 3. Test Pretrained Models  
 The following scripts evaluate pretrained models using both experimental and simulated data:  
 - Run Test/Test_Exp2D_CircularArray.py – test on experimental mouse abdomen data using 2D Circular Array  
