@@ -17,7 +17,7 @@ This repository provides code for Learning Optimal System Designs for Cost-Effic
 We provide a one-click executable for quick testing on 2D circular array (mouse abdomen) data. This package includes the test dataset, pretrained weights, and the required deep learning environment, so no additional installation is needed.
 
 Note: The executable runs on CPU only, so inference may be slower.
-1. Download the packaged executable [here](https://drive.google.com/file/d/1YbaCuTYaSIhNv8hoO3YQR1H5OYW3qs9W/view?usp=sharing).  
+1. Download the packaged executable [here](https://drive.google.com/file/d/1TSNvuDSUb83VTcADN8r_N0QE1RIDShnk/view?usp=sharing).  
 2. Extract the archive to obtain a QuickTest folder.
 3. Run 'CodesignOA_2D_GUI.exe' inside the folder.
 4. In the GUI, select the number of transducer elements. Once ready, the Run button will turn green. Click it to start inference and visualization.
